@@ -16,7 +16,7 @@ The filename of the scan will be the start time of the scan, in the format `xml-
 
 ## Usage
 1. Download this repository, and check the `folderPath` variable in `BurpExtender.java` is pointed to a location where you have write permission **on the Scanning Machine**.
-2. Build the extension using `gradle fatJar`. Please compile using Java 11.
+2. Build the extension using `./gradlew fatJar`.
 3. [Load the extension into Burp Enterprise](https://portswigger.net/burp/documentation/enterprise/working/scans/extensions), and add the extension to your Site Details page.
 4. Run a scan as normal.
 5. Retrieve your scan from your Scanning Machine - it will be located according to the `folderPath` that is set. If in doubt, the file location and name will be output in the Scan log.
