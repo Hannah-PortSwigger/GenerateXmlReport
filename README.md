@@ -28,8 +28,8 @@ If you have received a `FileNotFoundException (Permission denied)`, then make su
 
 ### Using Gradle
 - If you do not have Gradle already installed, follow the installation instructions [here](https://gradle.org/install/).
-- Once Gradle is installed, run `gradle fatJar` from the installation directory using the command line.
+- Once Gradle is installed, run `./gradlew fatJar` from the installation directory using the command line.
 - Make sure you are using the latest version of Gradle.
-- Please make sure to use Java 11 to compile.
+- Please make sure to use at least Java 11 to compile.
 
 If no changes to the code are required, a prebuilt JAR file is available under `build/libs/`. It is preferable to compile your own JAR file.
