@@ -4,6 +4,8 @@ For Burp Suite Enterprise Edition
 Please note that extensions are written by third party users of Burp, and PortSwigger makes no warranty about their quality or usefulness for any particular purpose.
 
 ---
+# Burp Suite Enterprise Edition has native functionality for XML export as of v2022.11
+
 This extension will generate an XML report immediately after a scan has finished, containing all issues found. The file will be stored on the Scanning Machine that performed the scan.
 
 The filename of the scan will be the start time of the scan, in the format `xml-report-yyyy-MM-dd-HH-mm-ss`.
